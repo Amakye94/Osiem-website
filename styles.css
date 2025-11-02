@@ -295,3 +295,40 @@ footer {
 .profile img:hover {
   transform: scale(1.05);
 }
+
+/* ===== FACILITY IMAGE (for health.html page) ===== */
+.facility-image {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.facility-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+
+.facility-image img:hover {
+    transform: scale(1.02);
+}
+
+/* ===== ENHANCED LIST STYLING FOR INSTITUTIONS ===== */
+section ul li strong {
+    color: #007a33;
+    font-size: 1.1em;
+    display: block;
+    margin-bottom: 5px;
+}
+
+section ul li em {
+    color: #888;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+section ul li br + a {
+    display: inline-block;
+    margin-top: 5px;
+}
